@@ -25,7 +25,6 @@ const main = async() => {
         tareas.cargarTareasFromArray(tareasDB);
     }
     
-    await pausa();
 
     do {
         opt = await inquirerMenu(); 
